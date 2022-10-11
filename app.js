@@ -31,8 +31,6 @@ app.post('', upload, function(req, res) {
         }
         res.json({data: pdfBuf});
     });
-    
-    
 });
 
 app.listen(3000, function() {
